@@ -1,0 +1,113 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: rgb(107, 107, 107);
+    color: rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    min-height: 75px;
+    box-shadow: 2px 3px 4px rgba(251,158,11,255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo img{
+    height: 70px;
+}
+a{
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+a:hover{
+    color: rgb(251,158,11);
+}
+.contenedor-buscador h3{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+#personaje{
+    border-radius: 10px;
+    background-color: rgb(251,158,11);
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    margin: 20px;
+
+}
+#boton{
+    background-color: rgb(0,163,253);
+    border-radius: 10px;
+}
+#resultado{
+    margin: 5px;
+    font-size: 20px;
+    display: flex;
+    
+}
+.personaje{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background-color: rgb(0, 163, 253);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    
+}
+.contenedor-informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin: 20px;
+    padding: 10px;
+}
+img{
+    border-radius: 30px;
+}
+.contenedor-informacion p{
+    font-size: 18px;
+}
+.contenedor-informacion #nombre{
+    font-weight: 700;
+}
+
+@media (max-width:600px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+    .contenedor-buscador h3{
+        font-size: 22px;
+    }
+    .personaje{
+        display: flex;
+        flex-direction: column
+    }
+    #resultado{
+        font-size: 20px;
+        margin-top: 60px;
+        font-size: 18px;
+
+    }
+    .contenedor-informacion{
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    img{
+        height: 120px;
+    }
+}

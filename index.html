@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Buscador Personajes de Naruto</title>
+	<link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">
+			<img src="Img/logo.png" alt="logo pagina">
+		</a>
+			<nav>
+				<a class="nav-link" href="#">Inicio</a>
+				<a class="nav-link" href="#">Sobre Nosotros</a>
+				<a class="nav-link" href="#">Contacto</a>
+			</nav>
+		</header>
+	<section class="Buscador">
+		<div class="contenedor-buscador">
+			<h3>Realiza la busqueda de tu personaje favorito:</h3>
+			<form id="buscador">
+				<div class="input">
+					<input type="texto" id="personaje">
+				</div>
+				<div class="boton">
+					<button id="boton" type="submit">Buscar personaje</button>
+				</div>
+			</form>
+		</div>
+	</section>
+	<section class="personaje">
+		<h3 id="resultado"></h3>
+		<div class="contenedor-informacion">
+			<div class="nombre">
+				<p id="nombre"></p>
+			</div>
+			<div class="imagen-container">
+				<img id="imagen" src="" alt="">
+			</div>
+			<p id="clan"></p>
+			<p id="jutsu"></p>
+			<p id="chakra"></p>
+			<p id="aldea"></p>
+			<p id="estado"></p>
+			<p id="equipo"></p>
+		</div>
+	</section>	
+	<script src="JS/script.js"></script>
+</body>
+</html>
